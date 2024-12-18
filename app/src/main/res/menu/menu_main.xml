@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Ícono del carrito -->
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/donut_circle"
+        android:title="Cart"
+        app:showAsAction="always" />
+
+    <!-- Ícono de información -->
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/donut_circle"
+        android:title="Info"
+        app:showAsAction="always" />
+
+    <!-- Opción Order -->
+    <item
+        android:id="@+id/action_order"
+        android:title="Order"
+        app:showAsAction="never" />
+
+    <!-- Opción Status -->
+    <item
+        android:id="@+id/action_status"
+        android:title="Status"
+        app:showAsAction="never" />
+
+    <!-- Opción Favorites (botón si hay espacio horizontal) -->
+    <item
+        android:id="@+id/action_favorites"
+        android:icon="@drawable/donut_circle"
+        android:title="Favorites"
+        app:showAsAction="ifRoom" />
+
+    <!-- Opción Contact -->
+    <item
+        android:id="@+id/action_contact"
+        android:title="Contact"
+        app:showAsAction="never" />
+
+</menu>
